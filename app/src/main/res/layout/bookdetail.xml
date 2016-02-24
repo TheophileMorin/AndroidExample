@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bookCoverIV"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/cover_content_desc"/>
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/book_title"
+        android:textSize="@dimen/book_detail_title"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/book_detail_title_padding"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/bookPriceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/book_detail_price"
+        android:text="@string/book_price"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/bookIsbnTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/book_isbn"
+        android:textSize="@dimen/book_detail_isbn"
+        android:layout_gravity="start|bottom"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:id="@+id/bookSumupTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="@dimen/book_detail_sumup"
+        android:text="@string/book_sumup"
+        android:layout_gravity="start|bottom"
+        android:paddingTop="30dp" />
+
+
+
+</LinearLayout>

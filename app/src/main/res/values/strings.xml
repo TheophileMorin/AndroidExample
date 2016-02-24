@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tmorin</string>
+
+    <string name="title_activity_booklist">LibraryApp</string>
+    <string name="title_activity_bookdetail">BookDetailActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="cover_content_desc">Book cover</string>
+    <string name="book_title">Harie Potier et la coupe de feu</string>
+    <string name="book_price">12.5€</string>
+    <string name="book_isbn">fcd4e6fa-a63f-4f75-9da4-b560020b6acc</string>
+    <string name="book_sumup">Lorem</string>
+
+
+
+</resources>
